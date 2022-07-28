@@ -76,6 +76,7 @@ const Home = () => {
                         component={Link}
                         spy
                         smooth
+                        href="/My-Portfolio"
                         offset={0}
                         duration={500}
                         to="contact"

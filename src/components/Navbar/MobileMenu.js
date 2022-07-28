@@ -3,6 +3,7 @@ import { makeStyles, Drawer, List, Button, Divider, ListItem, Link as MuiLink } 
 import { Link } from "react-scroll";
 import DarkModeSwitcher from "../DarkModeSwitcher";
 import LangSelector from "./LangSelector";
+import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 
 const MobileMenu = ({ open, onClose, onOpen }) => {
@@ -40,7 +41,7 @@ const MobileMenu = ({ open, onClose, onOpen }) => {
                     <ListItem className={classes.btnContainer}>
                         <Button
                             component={MuiLink}
-                            href="/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf"
+                            href={i18n.language == "fr" ? "/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf" : "/My-Portfolio/CV_Ismail_AIT_HADDOU_EN.pdf"}
                             variant="outlined"
                             color="primary"
                             underline="none"

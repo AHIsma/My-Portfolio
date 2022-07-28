@@ -3,6 +3,7 @@ import { Tab, Tabs, Button, makeStyles, withStyles, Link as MuiLink } from "@mat
 import { motion, useAnimation } from "framer-motion";
 import { Link, Events } from "react-scroll";
 import LangSelector from "./LangSelector";
+import i18n from "i18next";
 import LoaderContext from "../../contexts/loaderContext";
 import { useTranslation } from "react-i18next";
 
@@ -25,7 +26,7 @@ const Menu = ({homeIsActive}) => {
     const [isScrolling, setIsScrolling] = useState(false);
     const { isLoading } = useContext(LoaderContext);
     const controls = useAnimation();
-    const { t } = useTranslation()
+    const { t } = useTranslation();
 
     useEffect(() => {
         Events.scrollEvent.register("begin", (to, element) => {
@@ -112,7 +113,7 @@ const Menu = ({homeIsActive}) => {
             <motion.div custom={4} animate={controls}>
                 <Button
                     component={MuiLink}
-                    href="/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf"
+                    href={i18n.language == "fr" ? "/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf" : "/My-Portfolio/CV_Ismail_AIT_HADDOU_EN.pdf"}
                     variant="outlined"
                     color="primary"
                     underline="none"

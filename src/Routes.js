@@ -16,7 +16,7 @@ const Routes = () => {
             <Navbar />
             {!isMobile && <Social />}
             <Switch>
-                <Route exact path="/My-Portfolio" component={MainHome} />
+                <Route exact path="/" component={MainHome} />
             </Switch>
             <Footer />
         </>

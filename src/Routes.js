@@ -15,9 +15,11 @@ const Routes = () => {
             <Loader />
             <Navbar />
             {!isMobile && <Social />}
-            <Switch>
-                <Route exact path="/" component={MainHome} />
-            </Switch>
+            <HashRouter>
+                <Switch>
+                    <Route exact path="/" component={MainHome} />
+                </Switch>
+            </HashRouter>
             <Footer />
         </>
     );

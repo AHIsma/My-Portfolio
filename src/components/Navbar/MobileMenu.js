@@ -40,7 +40,7 @@ const MobileMenu = ({ open, onClose, onOpen }) => {
                     <ListItem className={classes.btnContainer}>
                         <Button
                             component={MuiLink}
-                            href="/CV_Ismail_AIT_HADDOU_FR.pdf"
+                            href="/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf"
                             variant="outlined"
                             color="primary"
                             underline="none"

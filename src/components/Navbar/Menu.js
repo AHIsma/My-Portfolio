@@ -112,7 +112,7 @@ const Menu = ({homeIsActive}) => {
             <motion.div custom={4} animate={controls}>
                 <Button
                     component={MuiLink}
-                    href="/CV_Ismail_AIT_HADDOU_FR.pdf"
+                    href="/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf"
                     variant="outlined"
                     color="primary"
                     underline="none"

@@ -15,11 +15,9 @@ const Routes = () => {
             <Loader />
             <Navbar />
             {!isMobile && <Social />}
-            <HashRouter>
-                <Switch>
-                    <Route exact path="/" component={MainHome} />
-                </Switch>
-            </HashRouter>
+            <Switch>
+                <Route exact path="/My-Portfolio" component={MainHome} />
+            </Switch>
             <Footer />
         </>
     );

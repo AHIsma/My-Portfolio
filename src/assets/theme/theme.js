@@ -33,7 +33,7 @@ const baseTheme = {
 };
 
 const darkTheme = createTheme({
-    logo: "./logo-full-dark.png",
+    logo: "./My-Portfolio/logo-full-dark.png",
     palette: {
         divider: "#fff",
         background: {
@@ -62,7 +62,7 @@ const darkTheme = createTheme({
 });
 
 const lightTheme = createTheme({
-    logo: "./logo-full-light.png",
+    logo: "./My-Portfolio/logo-full-light.png",
     palette: {
         divider: "#a99985",
         background: {

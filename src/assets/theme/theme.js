@@ -38,10 +38,10 @@ const darkTheme = createTheme({
         divider: "#fff",
         background: {
             default: "#010536 ",
-            paper:"#2C394B"
+            paper:"#283845"
         },
         primary: {
-            main: "#70798c",
+            main: "#202c39",
             contrastText: "#fff",
         },
         secondary: {

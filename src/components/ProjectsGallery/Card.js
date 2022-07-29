@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import { ArrowDownward } from "@material-ui/icons";
 import { motion, useAnimation } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const hoverVariants = {
     hover: {
@@ -40,7 +41,9 @@ const Card = ({ id, title, backgroundImage, frontImage, overview, technologies, 
     const handleMouseLeaveControls = () => {
         controls.start("initial");
     };
+    const { t } = useTranslation();
     controls.start("initial");
+
     return (
         <MuiCard
             className={classes.root}
@@ -107,7 +110,7 @@ const Card = ({ id, title, backgroundImage, frontImage, overview, technologies, 
                     animate={controls}
                 >
                     <Box mr={1}>
-                        <Typography variant="h4">View project </Typography>
+                        <Typography variant="h4">{t("view_project")}</Typography>
                     </Box>
                     <Icon
                         component={motion.div}

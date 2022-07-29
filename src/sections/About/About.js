@@ -32,11 +32,11 @@ const About = () => {
                     </Box>
                     <Skills />
                 </Grid>
-                {/* {!isMobile && (
+                {!isMobile && (
                     <Grid item xs={12} md={5} className={classes.gridItemWrapper}>
                         <Avatar />
                     </Grid>
-                )} */}
+                )}
             </Grid>
         </SectionContainer>
     );

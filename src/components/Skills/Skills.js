@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     container: {
         maxWidth: "600px",
         display: "flex",
-        flexWrap:"wrap"
+        flexWrap:"wrap",
     },
     skillWrapper: {
         width: "100%",
@@ -32,7 +32,8 @@ const useStyles = makeStyles((theme) => ({
         marginRight:"10px",
         marginBottom:"10px",
         minWidth:"50px",
-        padding:"10px"
+        padding:"10px",
+        backgroundColor: theme.palette.background.project,
     }
 }));
 

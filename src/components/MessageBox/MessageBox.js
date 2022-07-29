@@ -153,6 +153,7 @@ const useStyles = makeStyles((theme) => ({
     },
     submitBtn: {
         width: "200px",
+        backgroundColor: theme.palette.background.project,
     },
 }));
 

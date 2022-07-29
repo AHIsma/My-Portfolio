@@ -37,15 +37,16 @@ const darkTheme = createTheme({
     palette: {
         divider: "#fff",
         background: {
-            default: "#010536 ",
-            paper:"#283845"
+            default: "#010536",
+            paper:"#70798c",
+            project: "#283845"
         },
         primary: {
-            main: "#202c39",
+            main: "#70798c",
             contrastText: "#fff",
         },
         secondary: {
-            main: "#2C394B",
+            main: "#70798c",
             contrastText: "#fff",
         },
         text: {
@@ -67,6 +68,7 @@ const lightTheme = createTheme({
         divider: "#a99985",
         background: {
             default: "#fff",
+            project: "#a99985"
         },
         primary: {
             main: "#a99985",

@@ -110,7 +110,7 @@ const useStyles = makeStyles((theme) => ({
         maxHeight:"80%",
         zIndex: "10000",
         boxShadow: theme.shadows[10],
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: theme.palette.background.project,
     },
     media: {
         height: "300px",

@@ -1,12 +1,13 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import AvatarImg from "../../assets/images/avatar.jpg";
+// import AvatarImg from "../../assets/images/avatar.jpg";
 
 const Avatar = () => {
   const classes = useStyles();
-  return (
-      <img src={AvatarImg} alt="Ismail AH" className={classes.avatarImg} />
-  );
+  return 
+  // (
+  //     // <img src={AvatarImg} alt="Ismail AH" className={classes.avatarImg} />
+  // );
 };
 
 const useStyles = makeStyles((theme) => ({

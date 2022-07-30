@@ -78,7 +78,7 @@ const LangSelector = (props) => {
 const useStyles = makeStyles((theme) => ({
     profileMenu: {
         "& .MuiPaper-root": {
-            backgroundColor: "#fff",
+            backgroundColor: theme.palette.primary.main,
             marginTop: "2px",
             boxShadow: theme.shadows[4],
         },

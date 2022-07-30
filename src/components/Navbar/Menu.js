@@ -114,6 +114,7 @@ const Menu = ({homeIsActive}) => {
                 <Button
                     component={MuiLink}
                     href={i18n.language == "fr" ? "/My-Portfolio/CV_Ismail_AIT_HADDOU_FR.pdf" : "/My-Portfolio/CV_Ismail_AIT_HADDOU_EN.pdf"}
+                    target="_blank"
                     variant="outlined"
                     color="primary"
                     underline="none"

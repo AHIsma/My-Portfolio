@@ -2,6 +2,8 @@ import React, { useEffect, useContext } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { makeStyles } from "@material-ui/core/styles";
 import loaderContext from "../../contexts/loaderContext";
+import lottie from 'lottie-web';
+import '../../sass/atom.scss'
 
 const Background3d = () => {
     const classes = useStyles();
@@ -9,6 +11,7 @@ const Background3d = () => {
     const controls = useAnimation();
 
     useEffect(() => {
+        
         if (!isLoading) {
             controls.start({
                 y: 0,
@@ -23,19 +26,24 @@ const Background3d = () => {
         } else {
             controls.start({ opacity: 0, y: -50 });
         }
+
+        const instance = lottie.loadAnimation({
+            container: document.getElementById('image'),
+            renderer: 'svg',
+            autoplay: true,
+            path: "https://assets8.lottiefiles.com/packages/lf20_qk9l02if.json"
+          });
+      
+        // Return clean up function here
+        return () => instance.destroy();
     }, [isLoading, controls]);
 
     return (
         <motion.div animate={controls} className={classes.wrapper}>
             <div className={classes.container}>
-                <iframe
-                    title="background-3d"
-                    src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
-                    frameBorder="0"
-                    height="100%"
-                    className={classes.iframe}
-                ></iframe>
-                <div className={classes.hideLogo} />
+            <section class="hero">
+                <figure id="image"></figure>
+            </section>
             </div>
         </motion.div>
     );

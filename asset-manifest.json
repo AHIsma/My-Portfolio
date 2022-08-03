@@ -11,8 +11,8 @@
     "main.css": "/My-Portfolio/static/css/main.1077e6e0.chunk.css",
     "main.js": "/My-Portfolio/static/js/main.eaa78293.chunk.js",
     "main.js.map": "/My-Portfolio/static/js/main.eaa78293.chunk.js.map",
-    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.dd6944a9.js",
-    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.dd6944a9.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.c11ff7ea.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.c11ff7ea.js.map",
     "static/js/6.41cdd86d.chunk.js": "/My-Portfolio/static/js/6.41cdd86d.chunk.js",
     "static/js/6.41cdd86d.chunk.js.map": "/My-Portfolio/static/js/6.41cdd86d.chunk.js.map",
     "static/js/7.34c23f6a.chunk.js": "/My-Portfolio/static/js/7.34c23f6a.chunk.js",
@@ -21,8 +21,8 @@
     "static/js/8.68799f52.chunk.js": "/My-Portfolio/static/js/8.68799f52.chunk.js",
     "static/js/8.68799f52.chunk.js.map": "/My-Portfolio/static/js/8.68799f52.chunk.js.map",
     "static/css/9.f9bca6fb.chunk.css": "/My-Portfolio/static/css/9.f9bca6fb.chunk.css",
-    "static/js/9.183ba8da.chunk.js": "/My-Portfolio/static/js/9.183ba8da.chunk.js",
-    "static/js/9.183ba8da.chunk.js.map": "/My-Portfolio/static/js/9.183ba8da.chunk.js.map",
+    "static/js/9.52ca70db.chunk.js": "/My-Portfolio/static/js/9.52ca70db.chunk.js",
+    "static/js/9.52ca70db.chunk.js.map": "/My-Portfolio/static/js/9.52ca70db.chunk.js.map",
     "static/js/10.36fd38dc.chunk.js": "/My-Portfolio/static/js/10.36fd38dc.chunk.js",
     "static/js/10.36fd38dc.chunk.js.map": "/My-Portfolio/static/js/10.36fd38dc.chunk.js.map",
     "static/js/11.c402feee.chunk.js": "/My-Portfolio/static/js/11.c402feee.chunk.js",
@@ -44,7 +44,7 @@
     "static/media/avatar_2.6499c673.png": "/My-Portfolio/static/media/avatar_2.6499c673.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd6944a9.js",
+    "static/js/runtime-main.c11ff7ea.js",
     "static/js/7.34c23f6a.chunk.js",
     "static/css/main.1077e6e0.chunk.css",
     "static/js/main.eaa78293.chunk.js"

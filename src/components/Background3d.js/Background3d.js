@@ -31,7 +31,7 @@ const Background3d = () => {
             container: document.getElementById('image'),
             renderer: 'svg',
             autoplay: true,
-            path: "./My-Portfolio/atom.json"
+            path: "./atom.json"
           });
       
         // Return clean up function here

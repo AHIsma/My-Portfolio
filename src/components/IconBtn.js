@@ -20,7 +20,7 @@ const IconBtn = ({ icon: Icon, href,fontSize, ...rest }) => {
 
 const useStyles = makeStyles((theme) => ({
     icon: {
-        color: theme.palette.text.secondary,
+        color: theme.palette.social,
         transition: "0.1s",
         cursor: "pointer",
         fontSize: props => props.fontSize ? `${props.fontSize}px` : "32px",

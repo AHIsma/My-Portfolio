@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { makeStyles } from "@material-ui/core/styles";
 import loaderContext from "../../contexts/loaderContext";
 import lottie from 'lottie-web';
-import '../../sass/atom.scss'
+import '../../sass/bg.scss'
 
 const Background3d = () => {
     const classes = useStyles();
@@ -31,7 +31,7 @@ const Background3d = () => {
             container: document.getElementById('image'),
             renderer: 'svg',
             autoplay: true,
-            path: "./atom.json"
+            path: "./workflow.json"
           });
       
         // Return clean up function here

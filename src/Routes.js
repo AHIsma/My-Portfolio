@@ -1,6 +1,6 @@
 import React, { lazy } from "react";
 import { useMediaQuery, useTheme } from "@material-ui/core";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 const MainHome = lazy(() => import("./pages/MainHome"));
 const Navbar = lazy(() => import("./components/Navbar"));
 const Social = lazy(() => import("./components/Social"));
@@ -16,7 +16,10 @@ const Routes = () => {
             <Navbar />
             {!isMobile && <Social />}
             <Switch>
-                <Route exact path="/My-Portfolio" component={MainHome} />
+                <Route exact path="/My-Portfolio" component={MainHome} />   
+                <Route exact path="**">
+                    <Redirect to="/My-Portfolio" />
+                </Route>
             </Switch>
             <Footer />
         </>

@@ -40,8 +40,8 @@ const ProjectsGallery = () => {
     loadProjects();
   }, []);
 
-  console.log('loadedProjects after pageNo: ', pageNo,' pageSize: ', pageSize);
-  console.log(loadedProjects);
+  // console.log('loadedProjects after pageNo: ', pageNo,' pageSize: ', pageSize);
+  // console.log(loadedProjects);
   return (
     <>
       <AnimateSharedLayout type="crossfade">

@@ -31,7 +31,7 @@ const Background3d = () => {
             container: document.getElementById('image'),
             renderer: 'svg',
             autoplay: true,
-            path: "https://assets8.lottiefiles.com/packages/lf20_qk9l02if.json"
+            path: "./My-Portfolio/atom.json"
           });
       
         // Return clean up function here

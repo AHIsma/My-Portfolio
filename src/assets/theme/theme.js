@@ -65,13 +65,13 @@ const darkTheme = createTheme({
 const lightTheme = createTheme({
     logo: "./My-Portfolio/logo-full-light.png",
     palette: {
-        divider: "#a99985",
+        divider: "#0075bc",
         background: {
             default: "#fff",
-            project: "#a99985"
+            project: "#0075bc"
         },
         primary: {
-            main: "#a99985",
+            main: "#0075bc",
             contrastText: "#000",
             paper: "#9E7777"
         },

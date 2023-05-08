@@ -46,9 +46,9 @@ const Home = () => {
                     , {t("home_i")}
                 </Typography>
                 <motion.div animate={controls} custom={1}>
-                    <div class="input-wrapper">
+                    <div className="input-wrapper">
                       <input aria-label="Name" />
-                      <span class="placeholder"></span>
+                      <span className="placeholder"></span>
                     </div>
                 </motion.div>
                 <Typography

@@ -41,7 +41,7 @@ const Background3d = () => {
     return (
         <motion.div animate={controls} className={classes.wrapper}>
             <div className={classes.container}>
-            <section class="hero">
+            <section className="hero">
                 <figure id="image"></figure>
             </section>
             </div>

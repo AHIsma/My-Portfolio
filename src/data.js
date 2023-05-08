@@ -51,6 +51,14 @@ const projectList = [
 const experienceList = [
     {
         id: 0,
+        company: "Netia",
+        links: {
+            website: "https://netia.com/",
+            linkedin: "https://www.linkedin.com/company/netia_2/mycompany/",
+        },
+    },
+    {
+        id: 1,
         company: "DAVID Systems GmbH",
         links: {
             website: "https://www.davidsystems.com/",
@@ -59,7 +67,7 @@ const experienceList = [
         },
     },
     {
-        id: 1,
+        id: 2,
         company: "Henley IT",
         links: {
             website: "https://www.henley.fr/",
@@ -67,7 +75,7 @@ const experienceList = [
         },
     },
     {
-        id: 2,
+        id: 3,
         company: "Palmer & CO",
         links: {
             website: "https://www.champagne-palmer.fr/en/",

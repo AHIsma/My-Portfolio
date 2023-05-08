@@ -137,7 +137,7 @@ const MessageBox = () => {
                             transition={{delay:1.5, duration:1}}
                             variant="body2"
                         >
-                            Your message has been successfully sent, i'll reply as soon as possible.
+                            {t(`sent_message`)}
                         </Typography>
                     </Box>
                 )}

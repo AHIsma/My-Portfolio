@@ -36,5 +36,6 @@
     "view_project": "Voir le projet",
     "contact_full_name": "Nom complet",
     "contact_email": "Adresse e-mail",
-    "contact_btn": "Envoyez votre message"
+    "contact_btn": "Envoyez votre message",
+    "sent_message": "Message envoyé avec succès, vous aurez une réponse dès que possible"
 }

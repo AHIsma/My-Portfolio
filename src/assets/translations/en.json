@@ -36,5 +36,6 @@
     "view_project": "View project",
     "contact_full_name": "Full name",
     "contact_email": "E-mail adress",
-    "contact_btn": "Send message"
+    "contact_btn": "Send message",
+    "sent_message": "Your message has been successfully sent, i'll reply as soon as possible."
 }

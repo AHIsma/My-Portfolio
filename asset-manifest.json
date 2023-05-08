@@ -9,10 +9,10 @@
     "static/js/3.c3699d0a.chunk.js": "/My-Portfolio/static/js/3.c3699d0a.chunk.js",
     "static/js/3.c3699d0a.chunk.js.map": "/My-Portfolio/static/js/3.c3699d0a.chunk.js.map",
     "main.css": "/My-Portfolio/static/css/main.1077e6e0.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.e291c106.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.e291c106.chunk.js.map",
-    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.24602b95.js",
-    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.24602b95.js.map",
+    "main.js": "/My-Portfolio/static/js/main.d170cf27.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.d170cf27.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.c31b9b7f.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.c31b9b7f.js.map",
     "static/js/6.979bf3ec.chunk.js": "/My-Portfolio/static/js/6.979bf3ec.chunk.js",
     "static/js/6.979bf3ec.chunk.js.map": "/My-Portfolio/static/js/6.979bf3ec.chunk.js.map",
     "static/js/7.e615b258.chunk.js": "/My-Portfolio/static/js/7.e615b258.chunk.js",
@@ -21,8 +21,8 @@
     "static/js/8.68799f52.chunk.js": "/My-Portfolio/static/js/8.68799f52.chunk.js",
     "static/js/8.68799f52.chunk.js.map": "/My-Portfolio/static/js/8.68799f52.chunk.js.map",
     "static/css/9.4ac1dd71.chunk.css": "/My-Portfolio/static/css/9.4ac1dd71.chunk.css",
-    "static/js/9.00705281.chunk.js": "/My-Portfolio/static/js/9.00705281.chunk.js",
-    "static/js/9.00705281.chunk.js.map": "/My-Portfolio/static/js/9.00705281.chunk.js.map",
+    "static/js/9.79f31b14.chunk.js": "/My-Portfolio/static/js/9.79f31b14.chunk.js",
+    "static/js/9.79f31b14.chunk.js.map": "/My-Portfolio/static/js/9.79f31b14.chunk.js.map",
     "static/js/10.8f7c488f.chunk.js": "/My-Portfolio/static/js/10.8f7c488f.chunk.js",
     "static/js/10.8f7c488f.chunk.js.map": "/My-Portfolio/static/js/10.8f7c488f.chunk.js.map",
     "static/js/11.2d59fd7e.chunk.js": "/My-Portfolio/static/js/11.2d59fd7e.chunk.js",
@@ -44,9 +44,9 @@
     "static/media/avatar_2.6499c673.png": "/My-Portfolio/static/media/avatar_2.6499c673.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.24602b95.js",
+    "static/js/runtime-main.c31b9b7f.js",
     "static/js/7.e615b258.chunk.js",
     "static/css/main.1077e6e0.chunk.css",
-    "static/js/main.e291c106.chunk.js"
+    "static/js/main.d170cf27.chunk.js"
   ]
 }

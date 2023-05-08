@@ -12,7 +12,7 @@ const Footer = () => {
             <Box className={classes.footer}>
                 {isMobile && <Social mobile />}
                 <Typography variant="body2" color="initial">
-                    © 2022 Ismail A. H., Inc
+                    © 2023 Ismail A. H., Inc
                 </Typography>
             </Box>
         </Container>
